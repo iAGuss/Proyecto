@@ -14,7 +14,7 @@ body {
   width: 99.9%;
   height: 100%;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 90px 600px 1fr 1fr 1fr 500px 150px;
+  grid-template-rows: 90px 600px 1fr 1fr 1fr 600px 150px;
   grid-template-areas:
     "nav nav nav"
     "header header header"
@@ -220,10 +220,11 @@ a {
 .mas {
   position: absolute;
   top: 40px;
-  right: 20px;
+  right: 30px;
 }
 .texti {
   margin-right: 90px;
+  width: 100%;
 }
 
 section {
@@ -316,6 +317,8 @@ aside {
 .delboton {
   display: flex;
   justify-content: center;
+  position: relative;
+  height: 30px;
 }
 .delboton > button {
   width: 110px;
@@ -323,7 +326,10 @@ aside {
   border-radius: 30px;
   background-color: #5227cc;
   color: white;
+  position: absolute;
+  left: 26%;
 }
+
 .dos {
   display: flex;
   margin: 20px;
@@ -379,8 +385,8 @@ hr {
 }
 .vermas {
   position: absolute;
-  margin-top: 160px;
-  margin-left: 160px;
+  bottom: 10px;
+  right: 10px;
 }
 span {
   display: flex;
@@ -389,6 +395,7 @@ span {
 #imgaenn {
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
+  width: 100%;
 }
 
 .modal {
@@ -455,7 +462,7 @@ span {
 
   margin: 10px 0px;
   margin-left: 10px;
-  width: 500px;
+  width: 90%;
   height: 180px;
   background-color: rgb(255, 255, 255);
   border-radius: 30px;
@@ -584,7 +591,6 @@ textarea {
     grid-area: noticia;
     flex-direction: column;
     padding: 40px;
-    width: 100%;
   }
   .soluciones {
     margin: 0px;
@@ -600,7 +606,7 @@ textarea {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 102%;
+    width: 100%;
   }
   .foter {
     flex-direction: column;
@@ -615,7 +621,7 @@ textarea {
     text-align: center;
   }
   .image {
-    width: 370px;
+    width: 363px;
     height: 300px;
   }
 
