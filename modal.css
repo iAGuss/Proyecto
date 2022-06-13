@@ -579,7 +579,7 @@ textarea {
   }
   main {
     grid-area: main;
-    padding-left: 10px;
+
     width: 100%;
   }
   article {
