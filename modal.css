@@ -582,7 +582,7 @@ textarea {
     display: flex;
     grid-area: noticia;
     flex-direction: column;
-
+   
     width: 100%;
   }
   .soluciones {
@@ -614,7 +614,7 @@ textarea {
     text-align: center;
   }
   .image {
-    width: 350px;
+    width: 370px;
     height: 300px;
   }
 

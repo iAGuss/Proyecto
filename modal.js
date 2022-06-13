@@ -15,4 +15,3 @@ cerrar.addEventListener("click", function (e) {
 cerrar2.addEventListener("click", function (e) {
   document.getElementById("my-modal").style.display = "none";
 });
-
